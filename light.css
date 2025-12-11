@@ -1,0 +1,29 @@
+h1{
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+    border: 5px solid dark rgb(159, 15, 243);
+    display: inline;
+}
+body {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Arial;
+    transition: background 2s ease;
+    color: white;
+    background: black;
+}
+button, select, input {
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px dotted palevioletred;
+}
+#message {
+    margin-top: 40px;
+    font-size: 20px;
+}
+p{
+    color: aquamarine;
+    font-weight: bold;
+    background-color: rgb(234, 5, 5);
+    display: -ms-inline-grid;
+}
