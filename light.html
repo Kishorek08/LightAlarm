@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Silent Light Alarm</title>
+    <link rel="stylesheet" href="light.css">
+</head>
+<body>
+
+<h1>🔆 Silent Sunrise Alarm</h1>
+
+<p>Set Alarm Time:</p>
+<input type="time" id="alarmTime">
+
+<p>Select Theme:</p>
+<select id="theme">
+    <option value="sunrise">Sunrise</option>
+    <option value="ocean">Ocean Blue</option>
+    <option value="warm">Warm Amber</option>
+</select>
+
+<button onclick="setAlarm()">Set Alarm</button>
+
+<p>Wake-up streak: <span id="streak">0</span></p>
+
+<p id="message"></p>
+
+<script src="light.js"></script>
+</body>
+</html>
